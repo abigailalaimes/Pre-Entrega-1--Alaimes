@@ -1,28 +1,34 @@
-const numA = parseInt(prompt("Ingrese el número deseado para calcular las cuotas"));
-const numB = parseInt(prompt("Ingrese el valor de interés obligatorio (16%): "));
-const operation = prompt("Ingrese el número de cuotas");
+const access = prompt("Ingresa la clave de socios para ingresar al sitio")
 
-function calcularCuotas (a, b, operation) {
-    
-    switch (operation){
-        case "1":
-            console.log(a);
-        break;
-        case "3":
-            console.log((a * (b/100)) / 3);
-        break;
-        case "6":
-            console.log((a * (b/100)) / 6);
-        break;
-        case "12":
-            console.log((a * (b/100)) / 12);
-        break;
-        default:
-            console.log(0);
-        break;            
+if (access === "travesura-realizada") {
+    const libroUno =new 
+
 }
+function mostrarStock (a, operation) {
+    While (access === "travesura-realizada"); {
+        let libros = parseInt(prompt("Ingrese el número de la saga que desea adquerir para verificar stock (ACOTAR(1)- HARRY POTTER(2)- LOS JUEGOS DEL HAMBRE(3)"));
+
+            switch (libros){
+            case "1":
+               alert("Estás de suerte, tenemos sufiente stock!!")
+            break;
+            case "2":
+                alert("Apurate! Quedan 2 unidades!")
+            break;
+            case "3":
+                alert("Lo sentimos! No tenemos stock por el momento.");
+            break;
+            default:
+                alert('Error! Ingrese una opción válida');
+            break;            
+        }
+            access = prompt("Ingresa la clave de socios para ingresar al sitio");
+            else {
+        alert('Contraseña incorrecta. Verifica los datos ingresados.')
+    }
 }
-calcularCuotas(numA, numB, operation);
+
+mostrarStock (numA, operation);
 
 
 
