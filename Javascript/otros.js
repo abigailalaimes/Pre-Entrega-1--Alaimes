@@ -33,6 +33,3 @@ if (acceso === "travesura-realizada") {
 } else {
   alert('Contraseña incorrecta. Verifica los datos ingresados.');
 }
-
-
-
