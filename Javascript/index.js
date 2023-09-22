@@ -17,7 +17,7 @@ const productos = [ { id: 1, producto: "hadas"},
                     { id: 2, producto: "magos"},
                     {id: 3, producto: "juegos"}];
 
-for (const producto of prodctos) {
+for (const producto of productos) {
   console.log(producto.id);
   console.log(producto.producto);
 }
