@@ -13,7 +13,16 @@ if (acceso === "travesura-realizada") {
   const libroDos = new RevelarStock("Harry Potter", "J. K. Rowling");
   const libroTres = new RevelarStock("Los juegos del hambre", "Suzanne Collins");
 
-  
+const productos = [ { id: 1, producto: "hadas"},
+                    { id: 2, producto: "magos"},
+                    {id: 3, producto: "juegos"}];
+
+for (const producto of prodctos) {
+  console.log(producto.id);
+  console.log(producto.producto);
+}
+
+
   const generoLiterario = ["fantasía" , "ciencia ficción", "romance"];
   const existencias = generoLiterario.find((el) => el == "fantasía");
   console.log(existencias);
