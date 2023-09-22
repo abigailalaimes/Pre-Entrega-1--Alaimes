@@ -4,11 +4,18 @@ if (acceso === "travesura-realizada") {
   function RevelarStock(saga, autor) {
     this.saga = saga;
     this.autor = autor;
+    this.getName = function () {
+      return this.saga;
+      }
   }
-
+  
   const libroUno = new RevelarStock("Acotar", "Sara J Maas");
   const libroDos = new RevelarStock("Harry Potter", "J. K. Rowling");
   const libroTres = new RevelarStock("Los juegos del hambre", "Suzanne Collins");
+
+const generoLiterario = ["fantasía" , "ciencia ficción", "romance"];
+const existencias = generoLiterario.find((el) => el == "fantasía");
+console.log(existencias);
 
   while (acceso === "travesura-realizada") {
     let eleccion = parseInt(prompt("Ingrese el número de la saga que desea adquirir para verificar stock: \n- ACOTAR (1) \n- HARRY POTTER (2) \n- LOS JUEGOS DEL HAMBRE (3) \n -Salir (4)"));
